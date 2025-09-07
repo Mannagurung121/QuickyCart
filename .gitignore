@@ -1,0 +1,17 @@
+# Xcode / iOS
+*.xcuserdatad
+*.xcuserdata
+*.moved-aside
+*.xcscmblueprint
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcsettings
+
+# API / secret files
+QuickyCart/Secrets.xcconfig
+QuickyCart/info.plist
+QuickyCart/GoogleService-info.plist
