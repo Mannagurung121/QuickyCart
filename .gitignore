@@ -14,4 +14,4 @@ build/
 # API / secret files
 QuickyCart/Secrets.xcconfig
 QuickyCart/info.plist
-QuickyCart/GoogleService-info.plist
+QuickyCart/GoogleService-info.plist.DS_Store
