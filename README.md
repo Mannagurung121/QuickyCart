@@ -7,8 +7,6 @@ Users can browse products, add them to the cart, view totals, and get notified a
 
 ## 🖼️ Screenshots
 
-<h3>Screenshots</h3>
-
 <img src="screenshots/IMG_5336.PNG" width="400"/>
 <img src="screenshots/IMG_5337.PNG" width="400"/>
 <img src="screenshots/IMG_5338.PNG" width="400"/>
@@ -22,19 +20,20 @@ Users can browse products, add them to the cart, view totals, and get notified a
 
 - Quick add products to cart  
 - View total price and product details  
-- Price drop alerts  
+- Price drop alerts and notifications  
 - Clean SwiftUI interface with dark mode  
-- Backend support for real-time price updates  
+- Automatic real-time product tracking  
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend (QuickyCart)**  
-- Swift, SwiftUI, Lottie
+- Swift, SwiftUI, Lottie  
 
-**Backend (QuickyCart_Backend)**  
-- Node.js, Firebase Firestore, Axios, Puppeteer  
+**Backend**  
+- Real-time product tracking (API hidden)  
+- No custom backend required  
 
 ---
 
@@ -43,9 +42,4 @@ Users can browse products, add them to the cart, view totals, and get notified a
 ### Frontend (`QuickyCart`)
 1. Open `QuickyCart` folder in Xcode  
 2. Build and run  
-
-### Backend (`QuickyCart_Backend`)
-```bash
-cd ~/Desktop/QuickyCart/QuickyCart_Backend
-npm install
-node index.js
+3. App will automatically fetch product info and show notifications
